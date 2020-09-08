@@ -194,8 +194,8 @@ def big_shoe_rebounds
     team_info[:players].each do |player_stats|
       if player_stats[:shoe_size] > max_shoe_size
         player_stats[:shoe_size] = max_shoe_size
-        print max_shoe_size
       end
+        print max_shoe_size
         puts max_shoe_size
       return player_stats[:player_name]
       end
