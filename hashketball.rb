@@ -197,7 +197,6 @@ def big_shoe_rebounds
       end
         print max_shoe_size
         puts max_shoe_size
-      return player_stats[:player_name]
       end
     end
 end
